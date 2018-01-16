@@ -1,6 +1,6 @@
 import rhinoscriptsyntax as rs
 #needs much improvement
-rs.GetObjects(
+
 def curveDivByDiameter():
     curve = rs.GetObject("sel curve")
     point = rs.GetPoint("sel point")
